@@ -1,0 +1,192 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+    
+a:visited {
+    text-decoration: none;
+}
+
+
+.About, .Our_Event, .People, .News, .Contact, .Sponsors {
+    background-color: #55AF84;
+}
+
+.Links_to_internal_pages {
+    text-align: center; 
+    /*
+    z-index: 10;
+    */
+    display: flex;
+}
+
+.one, .two, .three, .four, .five, .six, .seven {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:white;
+    padding: 40px 50px 60px 50px;  
+}
+
+body {
+    background-color: #4461AC;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home {
+    flex: 1;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(https://live.staticflickr.com/65535/50015690987_0119ac416a_b.jpg);
+    height: 60%;
+    color: white;
+
+}
+
+
+.home h3 { 
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: 'Notable', sans-serif;
+
+}
+
+.home p {
+    font-size: 24px;
+    line-height: 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.About {
+
+    flex: 2;
+    width: 85%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+    margin: 100px auto;
+}
+
+.About h2{
+    color:black;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.About ul {
+    color:black;
+    font-size: 42px;
+}
+
+.Our_Event {
+    flex: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+}
+
+.Our_Event h2{
+    color:black;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.People {
+    flex: 4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+}
+
+.People h2{
+    color:black;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.News {
+    flex: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+}
+
+.News h2{
+    color:black;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.News h4{
+    color:black;
+    font-size: 42px;
+}
+
+.Contact {
+    flex: 6;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+}
+
+.Contact h2{
+    color:black;
+    text-align: center;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.Contact form{
+    color:black;
+    font-size: 42px;
+    text-align: center;
+}
+
+.Sponsors {
+    flex: 7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;   
+    padding: 30px;
+    width: 85%;
+    height: 1000px; 
+    margin: 100px auto;
+    /*
+    margin: 100px auto;
+    padding: 30px;
+    width: 85%;
+    height: 1000px;  
+    */
+}
+
