@@ -4,6 +4,10 @@ body {
     font-family: 'NTR', sans-serif;
 }
 
+.nav-item {
+    font-size: 1rem; 
+}
+
 .Home_heading {
     text-align: center;
     font-size: 3rem; 
@@ -15,7 +19,22 @@ body {
     width: 85%;
 }
 
-.About_us {
+.About-us {
+    width: 70%;
+    background-color: #FFFFF8;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.About-us-content {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Our-event {
     width: 85%;
     background-color: #FFFFF8;
     color: black;
@@ -23,11 +42,34 @@ body {
     text-align: center;
 }
 
-.Our_Event {
+.panelist-heading , .panelist_pic_1, .panelist_pic_2, .panelist_pic_3 {
+    width: 20%;
+}
+
+.People {
+    width: 70%;
+    background-color: #FFFFF8;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.member_pic_1, .member_pic_2, .member_pic_3, .member_pic_4, .member_pic_5, .member_pic_6 {
+    width: 20%;
+}
+
+.News {
+    width: 85%;
+    background-color: #537752;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.Subscribe {
     width: 85%;
     background-color: #FFFFF8;
     color: black;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
-
-
