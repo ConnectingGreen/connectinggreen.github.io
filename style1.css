@@ -4,13 +4,9 @@ body {
     font-family: 'NTR', sans-serif;
 }
 
-.nav-item {
-    font-size: 1rem; 
-}
 
 .Home_heading {
     text-align: center;
-    font-size: 3rem; 
     color: #FFFFF8;
     letter-spacing: 0.5rem;
 }
@@ -28,10 +24,9 @@ body {
 }
 
 .About-us-content {
-    font-size: 1.5rem;
-    line-height: 3rem;
     padding-left: 5%;
     padding-right: 5%;
+    letter-spacing: 1rem;
 }
 
 .Our-event {
