@@ -4,6 +4,9 @@ body {
     font-family: 'NTR', sans-serif;
 }
 
+.About-us, .Our-event, .People, .News, .Affiliations, .Subscribe {
+    margin: 10% auto;
+}
 
 .Home_heading {
     text-align: center;
@@ -71,3 +74,4 @@ body {
 .page-footer {
     background-color: #537752;
 }
+
